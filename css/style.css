@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,700);
+
+body {
+	padding-top: 50px;
+	font-family: "Roboto" !important;
+}
+
+.navbar {
+	font-weight: 700;
+	border-radius: 0;
+	border: 0;
+	font-size: 16px;
+}
+
+img {
+	display: block;
+}
+
+.form-control {
+	border-radius: 2px;
+}
+
+form {
+	border: 2px solid grey;
+	padding: 50px 50px !important;
+	margin-top: 50px;
+	border-radius: 0px 50px 50px 50px;
+	text-decoration: underline;
+	z-index: 1;
+}
+
+label {
+	margin-top: 7px;
+	text-align: right;
+}
+
+.spec {
+	text-align: left;
+	font-weight: 500;
+}
+
+.spec a {
+	margin: 0;
+	text-decoration: underline;
+}
+
+.scol {
+	color: red;
+}
+
+form a {
+	margin-left: 30px;
+}
+
+hr {
+	border-style: dashed;
+}
+
+input.large { display: inline-block; }
+input.small { display: none; }
+
+@media (max-width: 768px) { 
+  input.large { display: none; }
+  input.small { display: inline-block; }
+}
+
+@media (min-width: 768px) { 
+	  .mybutton {
+		top: 33px !important;
+	}
+}
+
+@media (min-width: 980px) { 
+	  .mybutton {
+		top: 70px !important;
+	}
+}
+
+.mybutton {
+	z-index: 2;
+	top: 70px;
+	text-align: center;
+}
+
+.mybutton button {
+	font-size: 16px !important;
+	font-weight: 700 !important;
+	background-color: #174a13;
+	color: white;
+	width: 150px;
+	border-radius: 35px 35px 0px 35px !important;
+	margin-right: 70px;
+}
+
+button:hover {
+	color: white !important;
+}
